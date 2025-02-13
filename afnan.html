@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;   
+       }
+       body{
+           background-color: rgb(221, 92, 18);
+       }
+       a{
+           text-decoration: none;
+           color: black;
+       }
+       header nav{
+           display: flex;
+           background-color: rgb(184, 147, 46);
+           padding: 30px;
+           justify-content: space-between;
+           align-items: center;
+       }
+       header nav ul{
+           padding-left: 20px;
+           display: flex;
+           gap: 10px;
+           list-style-type: none;
+           font-size: 18px;
+       }
+       ul li a{
+           border: 3px solid black;
+           padding: 8px;
+           border-radius: 100px;
+       }
+       ul li a:hover{
+           border: 3px solid rgb(138, 127, 80);
+           background-color: rgb(138, 127, 80);
+           padding: 8px;
+           border-radius: 100px;
+           transition: all 0.2s ease;
+       }
+       .title{
+           font-weight: 600;
+           font-size: 24px;
+       }
+       span{
+           color: rgb(204, 188, 144);
+           text-transform: uppercase;
+           font-weight: 600;
+       }
+       .container{
+           height: 90vh;
+           width: 100%;
+           border: 4px solid black;
+       }
+       .ctx{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       margin-top: 25%;
+       font-size: 22px;
+   }
+
+   button{
+
+      margin: 20px;
+      font-size: larger;
+      background: #000;
+      color: aliceblue;
+
+   }
+
+     .btn{
+
+      border: 3px solid black;
+      border-radius: 40px;
+      width: 150px;
+      align-items: center;
+      margin-left: 42%;
+      margin-top: 30px;
+    
+     }   
+      
+    .btn:hover{
+
+     background-color: gray;
+
+     transition: all 0.2s ease;
+     border: 3px solid rgb(138, 127, 80);
+    }
+
+
+
+
+
+   </style>
+   <body>
+       <!-- navbar -->
+       <header>
+           <nav>
+               <a href="" class="title">Daraz</a>
+               <ul>
+                   <li><a href="">Home</a></li>
+                   <li><a href="">Product</a></li>
+                   <li><a href="">Services</a></li>
+                   <li><a href="">Contact Us</a></li>
+                   <li><a href="">Feedback</a></li>
+               </ul>
+           </nav>     
+       </header>
+       <!-- hero section  -->
+       <div class="container">
+           <div class="ctx"><h2>Welcome to <span>Daraz</span></h2>
+           <p><span>Daraz</span> is the best product online shopping website.</p><button class="btn">Go To Market>>></button></div>
+   
+</body>
+</html>
